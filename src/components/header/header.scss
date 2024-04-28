@@ -1,0 +1,50 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 36px 80px;
+  width: 100%;
+  box-sizing: border-box;
+  max-width: 1440px;
+
+  &__nav {
+    display: flex;
+    align-items: center;
+    gap: 80px;
+  }
+  &__logo {
+    width: 167px;
+    height: 45px;
+  }
+  &__links {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+  }
+  &__link {
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: none;
+    color: rgba(144, 162, 178, 1);
+  }
+
+  &__buttons {
+    display: flex;
+    gap: 16px;
+  }
+}
+.sign {
+  text-decoration: none;
+  align-items: center;
+  font-weight: 700;
+  padding: 12px 32px;
+  border-radius: 8px;
+}
+.up {
+  color: rgb(33, 150, 243);
+}
+.in {
+  color: rgb(250, 253, 255);
+  background: rgb(33, 150, 243);
+}

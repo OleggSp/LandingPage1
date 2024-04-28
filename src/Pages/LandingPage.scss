@@ -1,0 +1,304 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.LandingPage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  background-color: rgb(255, 255, 255);
+
+  &__container1 {
+    display: flex;
+    align-items: center;
+    padding: 61px 0 61px 82px;
+    gap: 64px;
+
+    &_img {
+      max-width: 784px;
+    }
+    &_info {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: flex-start;
+      margin-top: 30px;
+      margin: bottom 30px;
+    }
+    &_smr {
+      font-size: 20px;
+      font-weight: 500;
+      line-height: 32px;
+
+      color: rgb(33, 150, 243);
+    }
+    &_title {
+      font-size: 48px;
+      font-weight: 700;
+      line-height: 72px;
+
+      padding: 12px 0;
+    }
+    &_subtitle {
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 24px;
+
+      color: rgb(92, 113, 132);
+    }
+    &_buttons {
+      display: flex;
+      flex-direction: row;
+      padding: 40px 0 64px;
+      gap: 12px;
+    }
+    &__btn {
+      border: none;
+      padding: 20px 32px;
+      border-radius: 8px;
+      cursor: pointer;
+      background-color: rgb(255, 255, 255);
+      font-weight: 600;
+    }
+    &__footer {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      &_txt {
+        font-size: 14px;
+        color: grey;
+      }
+      &_images {
+        display: flex;
+        gap: 24px;
+      }
+    }
+  }
+  &__container2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 64px;
+    padding: 90px 91px;
+
+    &__title {
+      font-weight: 600;
+    }
+  }
+  &__container3 {
+    display: flex;
+    align-items: center;
+    gap: 31px;
+    flex-direction: column;
+    padding: 82px 146px;
+
+    &__txt {
+      text-align: center;
+      gap: 12px;
+    }
+
+    &__bluetxt {
+      font-size: 24px;
+      font-weight: 600;
+      line-height: 32px;
+      color: rgb(33, 150, 243);
+    }
+    &__title {
+      font-family: "Epilogue";
+      font-weight: 700;
+      font-size: 40px;
+      line-height: 64px;
+    }
+    &_colums {
+      display: flex;
+      gap: 24px;
+    }
+    &__colum {
+      width: 367px;
+      height: 418px;
+    }
+    &__card {
+      width: 366px;
+      height: 238px;
+    }
+    &__info {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+    &__subtitle {
+      max-width: 367px;
+      line-height: 24px;
+      color: rgb(92, 113, 132);
+    }
+  }
+  &__container4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    padding: 66px 150px;
+
+    &_img {
+      width: 465px;
+      height: 588px;
+    }
+    &__bluetxt {
+      font-size: 24px;
+      font-weight: 600;
+      line-height: 30px;
+      color: rgb(33, 150, 243);
+
+      margin-bottom: 8px;
+    }
+    &__title {
+      font-family: "Epilogue";
+      font-size: 40px;
+      font-weight: 700;
+      line-height: 64px;
+    }
+    &__subtitle {
+      color: rgb(92, 113, 132);
+      margin-top: 12px;
+      margin-bottom: 24px;
+    }
+    &__btn {
+      border: none;
+      padding: 20px 32px;
+      border-radius: 8px;
+      cursor: pointer;
+      background-color: rgb(33, 150, 243);
+      color: rgb(255, 255, 255);
+      font-weight: 600;
+    }
+  }
+  &__container5 {
+    display: flex;
+    align-items: center;
+    gap: 160px;
+    padding: 66px 150px;
+
+    &__bluetxt {
+      font-size: 24px;
+      font-weight: 600;
+      line-height: 30px;
+      color: rgb(33, 150, 243);
+
+      margin-bottom: 8px;
+    }
+    &__title {
+      font-family: "Epilogue";
+      font-size: 40px;
+      font-weight: 700;
+      line-height: 64px;
+    }
+    &__subtitle {
+      color: rgb(92, 113, 132);
+      margin-top: 12px;
+      margin-bottom: 24px;
+    }
+    &__btn {
+      border: none;
+      padding: 20px 32px;
+      border-radius: 8px;
+      cursor: pointer;
+      background-color: rgb(33, 150, 243);
+      color: rgb(255, 255, 255);
+      font-weight: 600;
+    }
+    &_img {
+      max-width: 600px;
+      height: 439px;
+    }
+  }
+  &__container6 {
+    align-items: center;
+    padding: 100px 145px;
+
+    &__form {
+      display: flex;
+      align-items: center;
+      padding: 77px 90px;
+      border-radius: 20px;
+      gap: 80px;
+      background-color: rgb(207, 232, 252);
+    }
+    &__bluetxt {
+      font-size: 20px;
+      font-weight: 600;
+      line-height: 30px;
+      color: rgb(33, 150, 243);
+    }
+    &__title {
+      font-family: "Epilogue";
+      font-size: 40px;
+      font-weight: 700;
+      line-height: 64px;
+    }
+    &__subtitle {
+      max-width: 512px;
+      line-height: 24px;
+      color: rgb(92, 113, 132);
+    }
+    &__SignUp {
+      display: flex;
+      flex-direction: column;
+
+      font-weight: 600;
+      line-height: 30px;
+      color: rgb(33, 150, 243);
+    }
+    &__title2 {
+      font-size: 24px;
+      font-weight: 600;
+      line-height: 30px;
+
+      margin-bottom: 40px;
+    }
+    &__lines {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      margin-bottom: 24px;
+    }
+    &__line {
+      border: none;
+      outline: none;
+      width: 330px;
+
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-start;
+      align-items: center;
+
+      line-height: 20px;
+      border-radius: 8px;
+      padding: 16px;
+    }
+    &__btn {
+      border: none;
+      padding: 19px;
+      border-radius: 8px;
+      cursor: pointer;
+      background-color: rgb(33, 150, 243);
+      color: rgb(255, 255, 255);
+      font-weight: 600;
+    }
+  }
+}
+
+.blue_txt {
+  color: rgb(33, 150, 243);
+}
+.blue {
+  background-color: rgb(33, 150, 243);
+  color: #fff;
+}
+.white {
+  color: rgb(33, 150, 243);
+}
